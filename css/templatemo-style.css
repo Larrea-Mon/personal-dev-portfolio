@@ -310,6 +310,29 @@ a:hover, a:active, a:focus {
     color: #E3AE57;
 }
 
+#lang-dropdown > a {
+    cursor: pointer;
+}
+
+#lang-dropdown .dropdown-menu {
+    min-width: 130px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+#lang-dropdown .dropdown-menu > li > a {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#lang-dropdown .dropdown-menu > li > a:hover,
+#lang-dropdown .dropdown-menu > li.active > a {
+    background: #E3AE57;
+    color: #fff;
+}
+
 .custom-navbar .navbar-toggle {
     border: none;
     padding-top: 10px;
