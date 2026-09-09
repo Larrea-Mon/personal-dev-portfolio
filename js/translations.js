@@ -69,16 +69,16 @@ window.translations = {
 
      es: {
           nav_home: "Inicio",
-          nav_about: "Sobre M\u00ED",
+          nav_about: "Sobre mí",
           nav_experience: "Experiencia",
           nav_testimonial: "Testimonios",
           nav_contact: "Contacto",
 
           home_welcome: "bienvenido a mi sitio web",
           home_title_pre: "Hola, soy",
-          home_title_post: "actualmente radicado en Nueva York.",
-          home_desc: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
-          home_button: "Comenzar",
+          home_title_post: "y vivo cerca de Bilbao",
+          home_desc: "No te voy a enseñar mi cara en esta página web porque soy una persona muy reservada.",
+          home_button: "Comienza el portfolio",
 
           about_title: "Donec auctor",
           about_subtitle: "Sed vulputate vitae diam quis bibendum",
@@ -110,13 +110,13 @@ window.translations = {
           experience_2_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
 
           education_title: "Mi Educaci\u00F3n",
-          education_subtitle: "In cursus orci non ipsum gravida dignissim",
-          education_1_role: "M\u00E1ster en Dise\u00F1o",
-          education_1_date: "Ene 2012 - May 2014",
-          education_1_desc: "Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.",
-          education_2_role: "Licenciatura en Artes",
-          education_2_date: "May 2008 - Dic 2011",
-          education_2_desc: "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          education_subtitle: "Graduado en la Universidad de Deusto",
+          education_1_role: "Grado en ingeniería informática ",
+          education_1_date: "2019 - 2024",
+          education_1_desc: "Programación en C, Java, Python, matemáticas, desarrollo web, diseño de software, sistemas inteligentes, hacer powerpoints y gantts. El TFG fue una aplicación móvil de gestión de horarios.",
+          education_2_role: "Máster en computación y sistemas inteligentes",
+          education_2_date: "2024 - 2026",
+          education_2_desc: "Aprendizaje de máquina, deep, reinforcement, de todo. Computación en la nube, concurrente, robótica. El TFM fue un sistema de aprendizaje con los datos de una planta de tratamiento de agua.",
 
           quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
           quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
