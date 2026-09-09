@@ -349,16 +349,11 @@ a:hover, a:active, a:focus {
 
 @media(min-width:768px) {
     .custom-navbar {
-        padding: 12px 0;
+        padding: 0;
         border-bottom: 0;
-        background: 0 0; 
-    }
-    .custom-navbar.top-nav-collapse {
         background: #ffffff;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-        padding: 0;
     }
-
 }
 
 
@@ -379,7 +374,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('../images/home-img.jpg') no-repeat;
+  background: url('../images/puente-colgante-portugalete.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
