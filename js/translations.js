@@ -116,7 +116,7 @@ window.translations = {
           education_1_desc: "Programación en C, Java, Python, matemáticas, desarrollo web, diseño de software, sistemas inteligentes, hacer powerpoints y gantts. El TFG fue una aplicación móvil de gestión de horarios.",
           education_2_role: "Máster en computación y sistemas inteligentes",
           education_2_date: "2024 - 2026",
-          education_2_desc: "Aprendizaje de máquina, deep, reinforcement, de todo. Computación en la nube, concurrente, robótica. El TFM fue un sistema de aprendizaje con los datos de una planta de tratamiento de agua.",
+          education_2_desc: "Aprendizaje de máquina, deep, reinforcement. Visión por computador, robótica. El TFM fue un sistema de aprendizaje con los datos de una planta de tratamiento de agua.",
 
           quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
           quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
