@@ -13,7 +13,6 @@ window.translations = {
           home_button: "Get Started",
 
           about_title: "About me",
-          about_subtitle: "Computer engineer based in Bilbao.",
           about_p1: "I have a degree in Computer Engineering and a Master's degree in Computing and Intelligent Systems from the University of Deusto.",
           about_p2: "My experience includes software development, database work, localization, and product layout. I enjoy learning new technologies and building practical solutions.",
 
@@ -30,7 +29,6 @@ window.translations = {
           experience_2_desc: "Localization and localization direction, translation management, and product layout for cards, supplementary material, and websites. Tools: Affinity, Excel, and MateCAT.",
 
           education_title: "Education",
-          education_subtitle: "University of Deusto",
           education_1_role: "Master's degree in Computing and Intelligent Systems",
           education_1_date: "2024 - 2026",
           education_1_desc: "Computer vision, machine learning, reinforcement learning, deep learning, Big Data, and high-performance architecture. Master's project: a learning system based on a water treatment plant.",
@@ -77,7 +75,6 @@ window.translations = {
           home_button: "Comienza el portfolio",
 
           about_title: "Sobre mí",
-          about_subtitle: "Ingeniero informático en Bilbao.",
           about_p1: "Tengo un grado en Ingeniería informática y un Máster en Computación y Sistemas Inteligentes por la Universidad de Deusto.",
           about_p2: "Mi experiencia incluye desarrollo de software, trabajo con bases de datos, localización y maquetación de producto. Me gusta aprender nuevas tecnologías y crear soluciones prácticas.",
 
@@ -94,7 +91,6 @@ window.translations = {
           experience_2_desc: "Localización, dirección de localización, gestión de traducciones y maquetación de cartas, material suplementario y páginas web. Herramientas: Affinity, Excel y MateCAT.",
 
           education_title: "Educación",
-          education_subtitle: "Universidad de Deusto",
           education_1_role: "Máster en computación y sistemas inteligentes finalizado",
           education_1_date: "2024 - 2026",
           education_1_desc: "Visión por computador, machine learning, reinforcement learning, deep learning, Big Data y arquitectura de altas prestaciones. PFM: sistema de aprendizaje basado en una planta de tratamiento de agua.",

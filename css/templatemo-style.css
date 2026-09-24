@@ -131,9 +131,20 @@ p {
   margin: 0;
 }
 
-#experience .experience-thumb,
-#education .education-thumb  {
+#experience .experience-thumb {
   padding: 22px 42px 42px 42px;
+}
+
+#education .education-thumb {
+  padding: 16px 24px 20px 24px;
+}
+
+#education .section-title {
+  padding-bottom: 0;
+}
+
+#education .section-title + .media {
+  margin-top: 0;
 }
 
 #service,
