@@ -4,12 +4,10 @@ window.translations = {
           nav_home: "Home",
           nav_about: "About Me",
           nav_experience: "Experiences",
-          nav_testimonial: "Testimonial",
-          nav_contact: "Contact",
+          nav_education: "Education",
 
           home_welcome: "welcome to my website",
           home_title: "Computer engineer based in Bilbao.",
-          home_desc_main: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
           home_desc: "To see a no-frills version, click",
           home_desc_link:"here",
           home_button: "Get Started",
@@ -22,15 +20,6 @@ window.translations = {
           links_title: "Links",
           email_link: "Email",
           github_link: "GitHub",
-
-          service_1_title: "Interface Design",
-          service_1_desc: "Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.",
-          service_2_title: "Media Strategy",
-          service_2_desc: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
-          service_3_title: "Mobile App",
-          service_3_desc: "Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.",
-          service_4_title: "Coding",
-          service_4_desc: "Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.",
 
           experience_title: "Work experience",
           experience_1_role: "InLOG Consulting",
@@ -48,19 +37,6 @@ window.translations = {
           education_2_role: "Computer Engineering degree",
           education_2_date: "2019 - 2024",
           education_2_desc: "Mathematics, Python, C, Java, software design, databases, information systems, operating systems, and computer architecture. Degree project: a mobile timetable management application.",
-
-          quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
-          quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
-
-          contact_title: "Say hello..",
-          contact_subtitle: "Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.",
-          contact_name_placeholder: "Your Name",
-          contact_email_placeholder: "Your Email",
-          contact_message_placeholder: "Write your message...",
-          contact_submit: "Send",
-          contact_office_title: "Visit my office",
-          contact_office_address: "456 New Street 22000, New York City, USA",
-          contact_info_title: "Contact.",
 
           footer_copyright: "Gorka Larrea"
 
@@ -92,12 +68,10 @@ window.translations = {
           nav_home: "Inicio",
           nav_about: "Sobre mí",
           nav_experience: "Experiencia",
-          nav_testimonial: "Testimonios",
-          nav_contact: "Contacto",
+          nav_education: "Educación",
 
           home_welcome: "bienvenido a mi sitio web",
           home_title: "Ingeniero informático en Bilbao.",
-          home_desc_main: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
           home_desc: "Para ver una versión sin florituras, haz clic",
           home_desc_link:"aquí",
           home_button: "Comienza el portfolio",
@@ -110,15 +84,6 @@ window.translations = {
           links_title: "Enlaces",
           email_link: "Correo electrónico",
           github_link: "GitHub",
-
-          service_1_title: "Dise\u00F1o de Interfaz",
-          service_1_desc: "Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.",
-          service_2_title: "Estrategia de Medios",
-          service_2_desc: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
-          service_3_title: "Aplicaci\u00F3n M\u00F3vil",
-          service_3_desc: "Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.",
-          service_4_title: "Programaci\u00F3n",
-          service_4_desc: "Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.",
 
           experience_title: "Experiencia laboral",
           experience_1_role: "InLOG Consulting",
@@ -136,19 +101,6 @@ window.translations = {
           education_2_role: "Grado en Ingeniería informática",
           education_2_date: "2019 - 2024",
           education_2_desc: "Matemáticas, Python, C, Java, diseño de software, bases de datos, sistemas de información, sistemas operativos y arquitectura de computadores. PFG: aplicación móvil de gestión de horarios.",
-
-          quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
-          quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
-
-          contact_title: "Saluda..",
-          contact_subtitle: "Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.",
-          contact_name_placeholder: "Tu Nombre",
-          contact_email_placeholder: "Tu Correo",
-          contact_message_placeholder: "Escribe tu mensaje...",
-          contact_submit: "Enviar",
-          contact_office_title: "Visita mi oficina",
-          contact_office_address: "456 New Street 22000, Nueva York, EE.UU.",
-          contact_info_title: "Contacto.",
 
           footer_copyright: "Gorka Larrea"
 
