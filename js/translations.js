@@ -100,7 +100,7 @@ window.translations = {
 
           footer_copyright: "Gorka Larrea"
 
-          ,simple_title: "Gorka Larrea - Desarrollo de software."
+          ,simple_title: "Gorka Larrea - Ingeniero informático."
           ,simple_full_page: "La página con florituras está"
           ,simple_here: "aquí"
           ,simple_education: "Educación"

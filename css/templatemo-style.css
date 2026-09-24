@@ -500,6 +500,18 @@ a:hover, a:active, a:focus {
   background: #232B2B;
 }
 
+#experience .row,
+#education .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#experience .image-column,
+#education .image-column {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #experience .experience-image img {
   display: block;
   width: 100%;
@@ -742,6 +754,11 @@ footer {
   #contact .col-md-3 {
     padding: 0;
     margin: 0;
+  }
+
+  #experience .row,
+  #education .row {
+    display: block;
   }
 
   .background-image {
