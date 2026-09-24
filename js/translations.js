@@ -8,23 +8,20 @@ window.translations = {
           nav_contact: "Contact",
 
           home_welcome: "welcome to my website",
-          home_title_pre: "Hello, I am",
-          home_title_post: "currently based in New York city.",
+          home_title: "Computer engineer based in Bilbao.",
           home_desc_main: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
           home_desc: "To see a no-frills version, click",
           home_desc_link:"here",
           home_button: "Get Started",
 
-          about_title: "Donec auctor",
-          about_subtitle: "Sed vulputate vitae diam quis bibendum",
-          about_p1: "Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.",
-          about_p2: "Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.",
+          about_title: "About me",
+          about_subtitle: "Computer engineer based in Bilbao.",
+          about_p1: "I have a degree in Computer Engineering and a Master's degree in Computing and Intelligent Systems from the University of Deusto.",
+          about_p2: "My experience includes software development, database work, localization, and product layout. I enjoy learning new technologies and building practical solutions.",
 
-          skills_title: "My Skills",
-          skills_subtitle: "Photoshop . HTML CSS JS . Web Design",
-          skill_frontend: "Frontend Design",
-          skill_backend: "Backend processing",
-          skill_html: "HTML5 & CSS3",
+          links_title: "Links",
+          email_link: "Email",
+          github_link: "GitHub",
 
           service_1_title: "Interface Design",
           service_1_desc: "Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.",
@@ -35,23 +32,22 @@ window.translations = {
           service_4_title: "Coding",
           service_4_desc: "Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.",
 
-          experience_title: "My Experiences",
-          experience_subtitle: "Previous companies and my tasks",
-          experience_1_role: "Graphic Designer",
-          experience_1_date: "2014 Jul - 2015 Sep",
-          experience_1_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          experience_2_role: "Web Designer",
-          experience_2_date: "2015 Oct - 2017 Jan",
-          experience_2_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          experience_title: "Work experience",
+          experience_1_role: "InLOG Consulting",
+          experience_1_date: "2023",
+          experience_1_desc: "Internship focused on database maintenance, data entry, and software development. Technologies: Java, C, and SQL.",
+          experience_2_role: "Null Signal Games",
+          experience_2_date: "2024 - 2026",
+          experience_2_desc: "Localization and localization direction, translation management, and product layout for cards, supplementary material, and websites. Tools: Affinity, Excel, and MateCAT.",
 
-          education_title: "My Education",
-          education_subtitle: "In cursus orci non ipsum gravida dignissim",
-          education_1_role: "Master in Design",
-          education_1_date: "2012 Jan - 2014 May",
-          education_1_desc: "Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.",
-          education_2_role: "Bachelor of Arts",
-          education_2_date: "2008 May - 2011 Dec",
-          education_2_desc: "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          education_title: "Education",
+          education_subtitle: "University of Deusto",
+          education_1_role: "Master's degree in Computing and Intelligent Systems",
+          education_1_date: "2024 - 2026",
+          education_1_desc: "Computer vision, machine learning, reinforcement learning, deep learning, Big Data, and high-performance architecture. Master's project: a learning system based on a water treatment plant.",
+          education_2_role: "Computer Engineering degree",
+          education_2_date: "2019 - 2024",
+          education_2_desc: "Mathematics, Python, C, Java, software design, databases, information systems, operating systems, and computer architecture. Degree project: a mobile timetable management application.",
 
           quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
           quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
@@ -66,20 +62,20 @@ window.translations = {
           contact_office_address: "456 New Street 22000, New York City, USA",
           contact_info_title: "Contact.",
 
-          footer_copyright: "Copyright \u00A9 2016 Your Company"
+          footer_copyright: "Gorka Larrea"
 
-          ,simple_title: "Gorka Larrea - Software developer."
+          ,simple_title: "Gorka Larrea - Computer engineer."
           ,simple_full_page: "The fancy looking page is"
           ,simple_here: "here"
           ,simple_education: "Education"
           ,simple_degree: "Degree in"
           ,simple_computer_engineering: "Computer Engineering"
           ,simple_degree_subjects: "Mathematics, Python, C, Java, Software Design, Databases, Information Systems,<br> Operating Systems, Computer Architecture, PowerPoints and Gantt charts."
-          ,simple_degree_project: "Final degree project - Design and development of a mobile timetable management application."
+          ,simple_degree_project: "Degree thesis project - Design and development of a mobile timetable management application."
           ,simple_master: "Master's degree in"
           ,simple_intelligent_systems: "Computing and Intelligent Systems"
           ,simple_master_subjects: "Computer vision, <i>machine learning</i>, <i>reinforcement learning</i> and <i>deep learning</i>,<br> Big Data, High-performance architecture."
-          ,simple_master_project: "Master's thesis - Design and development of a learning system based on a water treatment plant."
+          ,simple_master_project: "Master's thesis project - Design and development of a learning system based on a water treatment plant."
           ,simple_languages: "Languages"
           ,simple_spanish: "Spanish"
           ,simple_english: "English"
@@ -100,23 +96,20 @@ window.translations = {
           nav_contact: "Contacto",
 
           home_welcome: "bienvenido a mi sitio web",
-          home_title_pre: "Hola, soy",
-          home_title_post: "y vivo cerca de Bilbao",
+          home_title: "Ingeniero informático en Bilbao.",
           home_desc_main: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
           home_desc: "Para ver una versión sin florituras, haz clic",
           home_desc_link:"aquí",
           home_button: "Comienza el portfolio",
 
-          about_title: "Donec auctor",
-          about_subtitle: "Sed vulputate vitae diam quis bibendum",
-          about_p1: "Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.",
-          about_p2: "Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.",
+          about_title: "Sobre mí",
+          about_subtitle: "Ingeniero informático en Bilbao.",
+          about_p1: "Tengo un grado en Ingeniería informática y un Máster en Computación y Sistemas Inteligentes por la Universidad de Deusto.",
+          about_p2: "Mi experiencia incluye desarrollo de software, trabajo con bases de datos, localización y maquetación de producto. Me gusta aprender nuevas tecnologías y crear soluciones prácticas.",
 
-          skills_title: "Mis Habilidades",
-          skills_subtitle: "Photoshop . HTML CSS JS . Dise\u00F1o Web",
-          skill_frontend: "Dise\u00F1o Frontend",
-          skill_backend: "Procesamiento Backend",
-          skill_html: "HTML5 y CSS3",
+          links_title: "Enlaces",
+          email_link: "Correo electrónico",
+          github_link: "GitHub",
 
           service_1_title: "Dise\u00F1o de Interfaz",
           service_1_desc: "Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.",
@@ -127,23 +120,22 @@ window.translations = {
           service_4_title: "Programaci\u00F3n",
           service_4_desc: "Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.",
 
-          experience_title: "Mi Experiencia",
-          experience_subtitle: "Empresas anteriores y mis tareas",
-          experience_1_role: "Dise\u00F1ador Gr\u00E1fico",
-          experience_1_date: "Jul 2014 - Sep 2015",
-          experience_1_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          experience_2_role: "Dise\u00F1ador Web",
-          experience_2_date: "Oct 2015 - Ene 2017",
-          experience_2_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          experience_title: "Experiencia laboral",
+          experience_1_role: "InLOG Consulting",
+          experience_1_date: "2023",
+          experience_1_desc: "Prácticas centradas en mantenimiento de bases de datos, entrada de datos y desarrollo de software. Tecnologías: Java, C y SQL.",
+          experience_2_role: "Null Signal Games",
+          experience_2_date: "2024 - 2026",
+          experience_2_desc: "Localización, dirección de localización, gestión de traducciones y maquetación de cartas, material suplementario y páginas web. Herramientas: Affinity, Excel y MateCAT.",
 
-          education_title: "Mi Educaci\u00F3n",
-          education_subtitle: "Graduado en la Universidad de Deusto",
-          education_1_role: "Grado en ingeniería informática ",
-          education_1_date: "2019 - 2024",
-          education_1_desc: "C, Java, Python, matemáticas, desarrollo web, diseño de software, powerpoints y gantts. TFG - aplicación móvil de gestión de horarios.",
-          education_2_role: "Máster en computación y sistemas inteligentes",
-          education_2_date: "2024 - 2026",
-          education_2_desc: "Machine learning, deep, reinforcement. Visión por computador. TFM - sistema de aprendizaje con datos de planta de tratamiento de agua.",
+          education_title: "Educación",
+          education_subtitle: "Universidad de Deusto",
+          education_1_role: "Máster en computación y sistemas inteligentes finalizado",
+          education_1_date: "2024 - 2026",
+          education_1_desc: "Visión por computador, machine learning, reinforcement learning, deep learning, Big Data y arquitectura de altas prestaciones. PFM: sistema de aprendizaje basado en una planta de tratamiento de agua.",
+          education_2_role: "Grado en Ingeniería informática",
+          education_2_date: "2019 - 2024",
+          education_2_desc: "Matemáticas, Python, C, Java, diseño de software, bases de datos, sistemas de información, sistemas operativos y arquitectura de computadores. PFG: aplicación móvil de gestión de horarios.",
 
           quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
           quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
@@ -158,7 +150,7 @@ window.translations = {
           contact_office_address: "456 New Street 22000, Nueva York, EE.UU.",
           contact_info_title: "Contacto.",
 
-          footer_copyright: "Copyright \u00A9 2016 Tu Empresa"
+          footer_copyright: "Gorka Larrea"
 
           ,simple_title: "Gorka Larrea - Desarrollo de software."
           ,simple_full_page: "La página con florituras está"

@@ -405,8 +405,21 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-thumb,
-#about .skill-thumb {
+#about .skill-thumb,
+#about .contact-links {
   padding: 22px 32px 32px 32px;
+}
+
+#about .links-list a {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+#about .links-list .fa {
+  width: 24px;
+  margin-right: 8px;
 }
 
 #about .progress {
@@ -468,6 +481,20 @@ a:hover, a:active, a:focus {
 #experience .media .fa {
   font-size: 42px;
   margin-right: 14px;
+}
+
+#experience .experience-image {
+  height: 100%;
+  min-height: 75vh;
+  background: #232B2B;
+}
+
+#experience .experience-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #experience small {
