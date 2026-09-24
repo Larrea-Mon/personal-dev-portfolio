@@ -16,6 +16,11 @@
                if (dict[key] !== undefined) el.textContent = dict[key];
           });
 
+          document.querySelectorAll("[data-i18n-html]").forEach(function (el) {
+               var key = el.getAttribute("data-i18n-html");
+               if (dict[key] !== undefined) el.innerHTML = dict[key];
+          });
+
           document.querySelectorAll("[data-i18n-placeholder]").forEach(function (el) {
                var key = el.getAttribute("data-i18n-placeholder");
                if (dict[key] !== undefined) el.setAttribute("placeholder", dict[key]);
@@ -33,6 +38,7 @@
           if (current) current.textContent = lang.toUpperCase();
 
           document.querySelectorAll("#lang-dropdown [data-lang]").forEach(function (el) {
+               el.classList.toggle("active", el.getAttribute("data-lang") === lang);
                el.parentElement.classList.toggle("active", el.getAttribute("data-lang") === lang);
           });
      }

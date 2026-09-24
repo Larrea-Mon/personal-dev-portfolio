@@ -10,7 +10,9 @@ window.translations = {
           home_welcome: "welcome to my website",
           home_title_pre: "Hello, I am",
           home_title_post: "currently based in New York city.",
-          home_desc: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
+          home_desc_main: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
+          home_desc: "To see a no-frills version, click",
+          home_desc_link:"here",
           home_button: "Get Started",
 
           about_title: "Donec auctor",
@@ -65,6 +67,29 @@ window.translations = {
           contact_info_title: "Contact.",
 
           footer_copyright: "Copyright \u00A9 2016 Your Company"
+
+          ,simple_title: "Gorka Larrea - Software developer."
+          ,simple_full_page: "The fancy looking page is"
+          ,simple_here: "here"
+          ,simple_education: "Education"
+          ,simple_degree: "Degree in"
+          ,simple_computer_engineering: "Computer Engineering"
+          ,simple_degree_subjects: "Mathematics, Python, C, Java, Software Design, Databases, Information Systems,<br> Operating Systems, Computer Architecture, PowerPoints and Gantt charts."
+          ,simple_degree_project: "Final degree project - Design and development of a mobile timetable management application."
+          ,simple_master: "Master's degree in"
+          ,simple_intelligent_systems: "Computing and Intelligent Systems"
+          ,simple_master_subjects: "Computer vision, <i>machine learning</i>, <i>reinforcement learning</i> and <i>deep learning</i>,<br> Big Data, High-performance architecture."
+          ,simple_master_project: "Master's thesis - Design and development of a learning system based on a water treatment plant."
+          ,simple_languages: "Languages"
+          ,simple_spanish: "Spanish"
+          ,simple_english: "English"
+          ,simple_basque: "Basque"
+          ,simple_german: "German"
+          ,simple_native: "Native"
+          ,simple_short_course: "took a few classes"
+          ,simple_work_experience: "Work experience"
+          ,simple_inlog_tasks: "Internship - Database maintenance, data entry and software development."
+          ,simple_null_signal_tasks: "Localization and localization director - Translate and manage the Spanish translation.<br> Manage translations (and translators) for all languages.<br> Layout product - cards, supplementary material and websites."
      },
 
      es: {
@@ -77,7 +102,9 @@ window.translations = {
           home_welcome: "bienvenido a mi sitio web",
           home_title_pre: "Hola, soy",
           home_title_post: "y vivo cerca de Bilbao",
-          home_desc: "No te voy a enseñar mi cara en esta página web porque soy una persona muy reservada.",
+          home_desc_main: "Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.",
+          home_desc: "Para ver una versión sin florituras, haz clic",
+          home_desc_link:"aquí",
           home_button: "Comienza el portfolio",
 
           about_title: "Donec auctor",
@@ -113,10 +140,10 @@ window.translations = {
           education_subtitle: "Graduado en la Universidad de Deusto",
           education_1_role: "Grado en ingeniería informática ",
           education_1_date: "2019 - 2024",
-          education_1_desc: "Programación en C, Java, Python, matemáticas, desarrollo web, diseño de software, sistemas inteligentes, hacer powerpoints y gantts. El TFG fue una aplicación móvil de gestión de horarios.",
+          education_1_desc: "C, Java, Python, matemáticas, desarrollo web, diseño de software, powerpoints y gantts. TFG - aplicación móvil de gestión de horarios.",
           education_2_role: "Máster en computación y sistemas inteligentes",
           education_2_date: "2024 - 2026",
-          education_2_desc: "Aprendizaje de máquina, deep, reinforcement. Visión por computador, robótica. El TFM fue un sistema de aprendizaje con los datos de una planta de tratamiento de agua.",
+          education_2_desc: "Machine learning, deep, reinforcement. Visión por computador. TFM - sistema de aprendizaje con datos de planta de tratamiento de agua.",
 
           quotes_text: "Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.",
           quotes_author: "Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.",
@@ -132,5 +159,28 @@ window.translations = {
           contact_info_title: "Contacto.",
 
           footer_copyright: "Copyright \u00A9 2016 Tu Empresa"
+
+          ,simple_title: "Gorka Larrea - Desarrollo de software."
+          ,simple_full_page: "La página con florituras está"
+          ,simple_here: "aquí"
+          ,simple_education: "Educación"
+          ,simple_degree: "Grado en"
+          ,simple_computer_engineering: "Ingeniería informática"
+          ,simple_degree_subjects: "Matemáticas, Python, C, Java, Diseño del software, Bases de datos, Sistemas de información,<br> Sistemas Operativos, Arquitectura de Computadores, PowerPoints y Gantts."
+          ,simple_degree_project: "PFG - Diseño y desarrollo de una aplicación móvil de gestión de horarios."
+          ,simple_master: "Máster universitario en"
+          ,simple_intelligent_systems: "Computación y Sistemas Inteligentes"
+          ,simple_master_subjects: "Visión por computador, <i>Machine Learning</i> y también <i>reinforcement learning</i> y <i>deep learning</i>,<br> Big Data, Arquitectura de altas prestaciones."
+          ,simple_master_project: "PFM - Diseño y desarrollo de un sistema de aprendizaje basado en una planta de tratamiento de agua."
+          ,simple_languages: "Idiomas"
+          ,simple_spanish: "Español"
+          ,simple_english: "Inglés"
+          ,simple_basque: "Euskera"
+          ,simple_german: "Alemán"
+          ,simple_native: "Nativo"
+          ,simple_short_course: "Hice un cursillo"
+          ,simple_work_experience: "Experiencia laboral"
+          ,simple_inlog_tasks: "Prácticas en empresa - Arreglar bases de datos, entrada de datos y desarrollo de software."
+          ,simple_null_signal_tasks: "Localización, director de Localización - Traducir y gestionar la traducción al español.<br> Gestionar traducciones (y traductores) de todos los idiomas.<br> Maquetar producto - cartas, material suplementario y web."
      }
 };
