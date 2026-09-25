@@ -35,7 +35,7 @@ window.translations = {
           experience_2_desc: "Localization and localization direction, translation management, and product layout for cards, supplementary material, and websites. Tools: Affinity, Excel, and MateCAT.",
 
           education_title: "Education",
-          education_image_description: "Computer engineering-themed illustration",
+          education_image_description: "Aerial view of the University of Deusto",
           education_1_role: "Master's degree in Computing and Intelligent Systems",
           education_1_date: "2024 - 2026",
           education_1_desc: "Computer vision, machine learning, reinforcement learning, deep learning, Big Data, and high-performance architecture. Master's project: a learning system based on a water treatment plant.",
@@ -104,7 +104,7 @@ window.translations = {
           experience_2_desc: "Localización, dirección de localización, gestión de traducciones y maquetación de cartas, material suplementario y páginas web. Herramientas: Affinity, Excel y MateCAT.",
 
           education_title: "Educación",
-          education_image_description: "Ilustración temática de ingeniería informática",
+          education_image_description: "Vista aérea de la Universidad de Deusto",
           education_1_role: "Máster en computación y sistemas inteligentes finalizado",
           education_1_date: "2024 - 2026",
           education_1_desc: "Visión por computador, machine learning, reinforcement learning, deep learning, Big Data y arquitectura de altas prestaciones. PFM: sistema de aprendizaje basado en una planta de tratamiento de agua.",
