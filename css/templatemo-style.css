@@ -147,6 +147,15 @@ p {
   margin-top: 0;
 }
 
+#about .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .contact-links {
+  height: 100%;
+}
+
 #service,
 #quotes,
 footer {
@@ -779,7 +788,8 @@ footer {
   }
 
   #experience .row,
-  #education .row {
+  #education .row,
+  #about .row {
     display: block;
   }
 

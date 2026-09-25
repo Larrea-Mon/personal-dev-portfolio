@@ -3,7 +3,7 @@ window.translations = {
      en: {
           nav_home: "Home",
           nav_about: "About Me",
-          nav_experience: "Experiences",
+          nav_experience: "Experience",
           nav_education: "Education",
 
           home_welcome: "welcome to my website",
