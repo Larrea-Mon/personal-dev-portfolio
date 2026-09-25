@@ -31,6 +31,11 @@
                if (dict[key] !== undefined) el.setAttribute("value", dict[key]);
           });
 
+            document.querySelectorAll("[data-i18n-aria-label]").forEach(function (el) {
+                  var key = el.getAttribute("data-i18n-aria-label");
+                  if (dict[key] !== undefined) el.setAttribute("aria-label", dict[key]);
+            });
+
           document.documentElement.setAttribute("lang", lang);
           localStorage.setItem(LANG_KEY, lang);
 
@@ -38,9 +43,17 @@
           if (current) current.textContent = lang.toUpperCase();
 
           document.querySelectorAll("#lang-dropdown [data-lang]").forEach(function (el) {
-               el.classList.toggle("active", el.getAttribute("data-lang") === lang);
-               el.parentElement.classList.toggle("active", el.getAttribute("data-lang") === lang);
+               var isActive = el.getAttribute("data-lang") === lang;
+               el.classList.toggle("active", isActive);
+               el.parentElement.classList.toggle("active", isActive);
+               if (isActive) {
+                    el.setAttribute("aria-current", "true");
+               } else {
+                    el.removeAttribute("aria-current");
+               }
           });
+
+          document.dispatchEvent(new CustomEvent("languagechange", { detail: { lang: lang } }));
      }
 
      document.addEventListener("DOMContentLoaded", function () {

@@ -1,11 +1,17 @@
 
 
+  var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   /*-------------------------------------------------------------------------------
     PRE LOADER
   -------------------------------------------------------------------------------*/
 
   $(window).load(function(){
-    $('.preloader').fadeOut(1000); // set duration in brackets    
+    if (prefersReducedMotion) {
+      $('.preloader').hide();
+    } else {
+      $('.preloader').fadeOut(1000);
+    }
   });
 
 
@@ -41,7 +47,9 @@
     $('footer').parallax("100%", 0.2);
 
   }
-  initParallax();
+  if (!prefersReducedMotion) {
+    initParallax();
+  }
 
 
 
@@ -50,7 +58,10 @@
   -------------------------------------------------------------------------------*/
   
     $(function() {
-        $('.custom-navbar a, #home a').bind('click', function(event) {
+        $('.custom-navbar a.smoothScroll, #home a.smoothScroll').bind('click', function(event) {
+          if (prefersReducedMotion) {
+            return;
+          }
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 49
@@ -65,7 +76,9 @@
     wow js - Animation js
   -------------------------------------------------------------------------------*/
 
-  new WOW({ mobile: false }).init();
+  if (!prefersReducedMotion) {
+    new WOW({ mobile: false }).init();
+  }
 
 
   });

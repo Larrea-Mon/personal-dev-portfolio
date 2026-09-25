@@ -4,10 +4,40 @@
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="Personal website for Larrea-dev">
+<meta name="description" content="Portfolio of Gorka Larrea, a computer engineer based in Bilbao, featuring education, work experience, and professional links.">
 <meta name="keywords" content="">
 <meta name="author" content="templatemo">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="canonical" href="https://larreadev.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gorka Larrea | Computer Engineer">
+<meta property="og:description" content="Portfolio of Gorka Larrea, a computer engineer based in Bilbao, featuring education, work experience, and professional links.">
+<meta property="og:url" content="https://larreadev.net/">
+<meta property="og:image" content="https://larreadev.net/images/puente-colgante-portugalete-1200x630.jpg">
+<meta property="og:image:alt" content="View of the Vizcaya Bridge in Portugalete">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gorka Larrea | Computer Engineer">
+<meta name="twitter:description" content="Portfolio of Gorka Larrea, a computer engineer based in Bilbao, featuring education, work experience, and professional links.">
+<meta name="twitter:image" content="https://larreadev.net/images/puente-colgante-portugalete-1200x630.jpg">
+<meta name="twitter:image:alt" content="View of the Vizcaya Bridge in Portugalete">
+<script type="application/ld+json">
+{
+     "@context": "https://schema.org",
+     "@type": "Person",
+     "name": "Gorka Larrea",
+     "jobTitle": "Computer Engineer",
+     "url": "https://larreadev.net/",
+     "email": "mailto:gorkalarreamontoya@gmail.com",
+     "sameAs": [
+          "https://github.com/Larrea-Mon"
+     ],
+     "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bilbao",
+          "addressCountry": "ES"
+     }
+}
+</script>
 <link rel="icon" type="image/png" href="images/icons/favicon.png">
 <title>Larrea-dev</title>
 <!--
@@ -23,6 +53,8 @@ http://www.templatemo.com/tm-498-stimulus
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<a class="skip-link" href="#main-content" data-i18n="skip_to_content">Skip to main content</a>
 
 
 <!-- PRE LOADER -->
@@ -41,7 +73,7 @@ http://www.templatemo.com/tm-498-stimulus
 
           <!-- navbar header -->
           <div class="navbar-header">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="primary-navigation" aria-label="Open navigation" data-i18n-aria-label="menu_label">
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
@@ -49,13 +81,13 @@ http://www.templatemo.com/tm-498-stimulus
                <a href="#" class="navbar-brand">LarreaDev</a>
           </div>
 
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="primary-navigation">
                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home" class="smoothScroll" data-i18n="nav_home">Home</a></li>
                     <li><a href="#about" class="smoothScroll" data-i18n="nav_about">About Me</a></li>
                     <li><a href="#experience" class="smoothScroll" data-i18n="nav_experience">Experiences</a></li>
                     <li><a href="#education" class="smoothScroll" data-i18n="nav_education">Education</a></li>
-                    <li class="dropdown" id="lang-dropdown">
+                    <li class="dropdown" id="lang-dropdown" aria-label="Language selector" data-i18n-aria-label="language_selector">
                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               <i class="fa fa-globe"></i> <span id="lang-current">EN</span> <span class="caret"></span>
                          </a>
@@ -71,6 +103,8 @@ http://www.templatemo.com/tm-498-stimulus
 </div>
 
 
+<main id="main-content">
+
 <!-- Home Section -->
 
 <section id="home" class="parallax-section">
@@ -78,7 +112,7 @@ http://www.templatemo.com/tm-498-stimulus
           <div class="row">
 
                <div class="col-md-6 col-sm-6">
-                    <div class="home-img"></div>
+                    <div class="home-img" role="img" aria-label="View of the Vizcaya Bridge in Portugalete" data-i18n-aria-label="home_image_description"></div>
                </div>
 
                <div class="col-md-6 col-sm-6">
@@ -86,7 +120,7 @@ http://www.templatemo.com/tm-498-stimulus
                          <div class="section-title">
                               <h4 class="wow fadeInUp" data-wow-delay="0.3s" data-i18n="home_welcome">welcome to my website</h4>
                               <h1 class="wow fadeInUp" data-wow-delay="0.6s"><strong>Gorka Larrea</strong><br><span data-i18n="home_title">Computer engineer based in Bilbao.</span></h1>
-                              <p class="wow fadeInUp" data-wow-delay="1.1s"><span data-i18n="home_desc">To see a no-frills version, click</span> <a href="simple.html" data-i18n="home_desc_link">here</a>.</p>
+                              <p class="wow fadeInUp" data-wow-delay="1.1s"><span data-i18n="home_desc">To see a no-frills version, click</span> <a class="home-simple-link" href="simple.html" data-i18n="home_desc_link">here</a>.</p>
                               
                               <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s" data-i18n="home_button">Get Started</a>
                               
@@ -112,8 +146,8 @@ http://www.templatemo.com/tm-498-stimulus
                               <h1 data-i18n="about_title">About me</h1>
                          </div>
                          <div class="wow fadeInUp" data-wow-delay="0.8s">
-                              <p data-i18n="about_p1">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
-                              <p data-i18n="about_p2">Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+                              <p data-i18n="about_p1">I have a degree in Computer Engineering and a Master's degree in Computing and Intelligent Systems from the University of Deusto.</p>
+                              <p data-i18n="about_p2">My experience includes software development, database work, localization, and product layout. I enjoy learning new technologies and building practical solutions.</p>
                          </div>
                     </div>
                </div>
@@ -151,7 +185,7 @@ http://www.templatemo.com/tm-498-stimulus
 
                <div class="image-column col-md-6 col-sm-6">
                     <div class="experience-image">
-                         <img src="images/translation-fan.png" alt="Translation project fan">
+                         <img src="images/translation-fan.png" alt="Four playing cards in different languages spread out in a fan.">
                     </div>
                </div>
 
@@ -166,7 +200,7 @@ http://www.templatemo.com/tm-498-stimulus
                                    <i class="fa fa-laptop"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading"><span data-i18n="experience_1_role">Graphic Designer</span> <small data-i18n="experience_1_date">2014 Jul - 2015 Sep</small></h3>
+                                   <h3 class="media-heading"><span data-i18n="experience_1_role">InLOG Consulting</span> <small data-i18n="experience_1_date">2023</small></h3>
                                    <p class="color-white" data-i18n="experience_1_desc">Internship focused on database maintenance, data entry, and software development. Technologies: Java, C, and SQL.</p>
                               </div>
                          </div>
@@ -176,7 +210,7 @@ http://www.templatemo.com/tm-498-stimulus
                                    <i class="fa fa-laptop"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading"><span data-i18n="experience_2_role">Web Designer</span> <small data-i18n="experience_2_date">2015 Oct - 2017 Jan</small></h3>
+                                   <h3 class="media-heading"><span data-i18n="experience_2_role">Null Signal Games</span> <small data-i18n="experience_2_date">2024 - 2026</small></h3>
                                    <p class="color-white" data-i18n="experience_2_desc">Localization, translation management, and product layout for cards, supplementary material, and websites. Tools: Affinity, Excel, and MateCAT.</p>
                               </div>
                          </div>
@@ -206,8 +240,8 @@ http://www.templatemo.com/tm-498-stimulus
                                    <i class="fa fa-laptop"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading"><span data-i18n="education_1_role">Master in Design</span> <small data-i18n="education_1_date">2012 Jan - 2014 May</small></h3>
-                                   <p class="color-white" data-i18n="education_1_desc">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque. </p>
+                                   <h3 class="media-heading"><span data-i18n="education_1_role">Master's degree in Computing and Intelligent Systems</span> <small data-i18n="education_1_date">2024 - 2026</small></h3>
+                                   <p class="color-white" data-i18n="education_1_desc">Computer vision, machine learning, reinforcement learning, deep learning, Big Data, and high-performance architecture. Master's project: a learning system based on a water treatment plant.</p>
                               </div>
                          </div>
 
@@ -216,8 +250,8 @@ http://www.templatemo.com/tm-498-stimulus
                                    <i class="fa fa-laptop"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading"><span data-i18n="education_2_role">Bachelor of Arts</span> <small data-i18n="education_2_date">2008 May - 2011 Dec</small></h3>
-                                   <p class="color-white" data-i18n="education_2_desc">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                   <h3 class="media-heading"><span data-i18n="education_2_role">Computer Engineering degree</span> <small data-i18n="education_2_date">2019 - 2024</small></h3>
+                                   <p class="color-white" data-i18n="education_2_desc">Mathematics, Python, C, Java, software design, databases, information systems, operating systems, and computer architecture. Degree project: a mobile timetable management application.</p>
                               </div>
                          </div>
 
@@ -225,13 +259,15 @@ http://www.templatemo.com/tm-498-stimulus
                </div>
 
                <div class="image-column col-md-6 col-sm-6">
-                    <div class="background-image education-img"></div>
+                    <div class="background-image education-img" role="img" aria-label="Aerial picture of the university of Deusto" data-i18n-aria-label="education_image_description"></div>
                </div>
 
           </div>
      </div>
 </section>
 
+
+</main>
 
 <!-- Footer Section -->
 

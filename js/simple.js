@@ -8,8 +8,10 @@
 
     function updateToggle() {
         var darkModeEnabled = document.body.classList.contains('dark-mode');
+        var lang = document.documentElement.getAttribute('lang') || 'en';
+        var dict = window.translations && window.translations[lang];
         toggle.textContent = darkModeEnabled ? '☀' : '☾';
-        toggle.setAttribute('aria-label', darkModeEnabled ? 'Activar modo claro' : 'Activar modo oscuro');
+        toggle.setAttribute('aria-label', dict[darkModeEnabled ? 'theme_enable_light' : 'theme_enable_dark']);
         toggle.setAttribute('aria-pressed', String(darkModeEnabled));
     }
 
@@ -19,5 +21,6 @@
         updateToggle();
     });
 
+    document.addEventListener('languagechange', updateToggle);
     updateToggle();
 })();
