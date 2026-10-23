@@ -105,7 +105,7 @@ window.translations = {
 
           education_title: "Educación",
           education_image_description: "Vista aérea de la Universidad de Deusto",
-          education_1_role: "Máster en computación y sistemas inteligentes finalizado",
+          education_1_role: "Máster en computación y sistemas inteligentes",
           education_1_date: "2024 - 2026",
           education_1_desc: "Visión por computador, machine learning, reinforcement learning, deep learning, Big Data y arquitectura de altas prestaciones. PFM: sistema de aprendizaje basado en una planta de tratamiento de agua.",
           education_2_role: "Grado en Ingeniería informática",
